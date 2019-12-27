@@ -3,6 +3,12 @@ import React from "react"
 import MenuItem from "../MenuItem/MenuItem"
 import "./Directory.scss"
 
+//overview
+  //this component renders the MenuItem component.
+  // it has a state that is set to an object called section, which contains an array of categories.
+  // the state values are the passed on to the MenuItem component via props.
+  // "id" gets passed on as it, while other properties such as title, imageUrl get passed using ... operator.
+
 export default class Directory extends React.Component {
   constructor() {
     super()
